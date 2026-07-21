@@ -1,0 +1,16 @@
+{
+  "logoTitle": "Vite React Starter",
+  "badgeText": "Vite + React 启动模版",
+  "heroTitle": "Vite React Starter",
+  "heroDescription": "这是一个现代、高效的 Vite + React 启动模版项目，预配置了 Tailwind CSS、TypeScript 和 shadcn/ui 组件库，旨在帮助开发者快速构建 React 应用程序。",
+  "sectionTitle": "高效的 React 开发体验",
+  "sectionSub": "开箱即用，快速起步，让您专注于业务逻辑的实现。",
+  "card1Title": "Vite & React 19",
+  "card1Desc": "拥有极速的热更新（HMR）以及 React 19 的最新特性。",
+  "card2Title": "Tailwind CSS & shadcn/ui",
+  "card2Desc": "结合下一代 Tailwind CSS 样式框架与无障碍设计的 shadcn/ui 组件，轻松打造高颜值界面。",
+  "card3Title": "Zustand 状态管理",
+  "card3Desc": "轻量、极速且无样板代码的状态管理，内置持久化支持，提供更优的开发体验。",
+  "ctaTitle": "快速构建 React 应用",
+  "ctaDesc": "集成最佳实践，提供稳定、快捷、现代的前端模版开发基础。"
+}

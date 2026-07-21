@@ -1,0 +1,20 @@
+{
+  "name": "app-templates",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Multi-template repository for application starters and boilerplate projects",
+  "scripts": {
+    "build:all": "pnpm -r run build",
+    "lint:all": "pnpm -r run lint",
+    "test:all": "pnpm -r run test",
+    "typecheck:all": "pnpm -r run typecheck"
+  },
+  "keywords": [
+    "templates",
+    "boilerplates",
+    "monorepo",
+    "starter"
+  ],
+  "author": "42arch",
+  "license": "MIT"
+}

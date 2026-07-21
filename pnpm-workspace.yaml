@@ -1,0 +1,7 @@
+packages:
+  # All top-level directories in this repository are standalone project templates
+  - '*'
+  - '!.*'
+  - '!node_modules'
+  - '!dist'
+  - '!build'

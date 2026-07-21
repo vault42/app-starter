@@ -1,0 +1,16 @@
+{
+  "logoTitle": "Vite React Starter",
+  "badgeText": "Vite + React Starter Template",
+  "heroTitle": "Vite React Starter",
+  "heroDescription": "This is a modern, high-performance Vite + React starter template project. Pre-configured with Tailwind CSS, TypeScript, and shadcn/ui components, it helps developers quickly build React applications.",
+  "sectionTitle": "Efficient React Development Experience",
+  "sectionSub": "Out of the box, get started quickly, allowing you to focus on business logic implementation.",
+  "card1Title": "Vite & React 19",
+  "card1Desc": "Features ultra-fast Hot Module Replacement (HMR) and the latest React 19 features.",
+  "card2Title": "Tailwind CSS & shadcn/ui",
+  "card2Desc": "Combines next-generation utility-first styling with high-quality, accessible UI components for stunning visual interfaces.",
+  "card3Title": "Zustand State Management",
+  "card3Desc": "Lightweight, blazing-fast state management with zero boilerplate and built-in persistence for a better developer experience.",
+  "ctaTitle": "Build React Apps Fast",
+  "ctaDesc": "Integrates best practices to provide a stable, fast, and modern front-end baseline."
+}

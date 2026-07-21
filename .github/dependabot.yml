@@ -1,0 +1,113 @@
+version: 2
+updates:
+  # 1. Update Node.js dependencies for root package
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: daily
+    open-pull-requests-limit: 10
+    commit-message:
+      prefix: chore(deps)
+    groups:
+      next-react-core:
+        patterns:
+          - next
+          - react
+          - react-dom
+      typescript-types:
+        patterns:
+          - '@types/*'
+      minor-and-patch:
+        patterns:
+          - '*'
+        update-types:
+          - minor
+          - patch
+
+  # 2. Update Node.js dependencies for vite-react-starter
+  - package-ecosystem: npm
+    directory: /vite-react-starter
+    schedule:
+      interval: daily
+    open-pull-requests-limit: 10
+    commit-message:
+      prefix: chore(deps-vite-react)
+    groups:
+      react-core:
+        patterns:
+          - react
+          - react-dom
+      typescript-types:
+        patterns:
+          - '@types/*'
+      minor-and-patch:
+        patterns:
+          - '*'
+        update-types:
+          - minor
+          - patch
+
+  # 3. Update Node.js dependencies for nextjs-starter
+  - package-ecosystem: npm
+    directory: /nextjs-starter
+    schedule:
+      interval: daily
+    open-pull-requests-limit: 10
+    commit-message:
+      prefix: chore(deps-nextjs)
+    groups:
+      next-react-core:
+        patterns:
+          - next
+          - react
+          - react-dom
+      typescript-types:
+        patterns:
+          - '@types/*'
+      minor-and-patch:
+        patterns:
+          - '*'
+        update-types:
+          - minor
+          - patch
+
+  # 4. Update Node.js & Cargo dependencies for tauri-nextjs-starter
+  - package-ecosystem: npm
+    directory: /tauri-nextjs-starter
+    schedule:
+      interval: daily
+    open-pull-requests-limit: 10
+    commit-message:
+      prefix: chore(deps-tauri)
+    groups:
+      next-react-core:
+        patterns:
+          - next
+          - react
+          - react-dom
+      typescript-types:
+        patterns:
+          - '@types/*'
+      minor-and-patch:
+        patterns:
+          - '*'
+        update-types:
+          - minor
+          - patch
+
+  - package-ecosystem: cargo
+    directory: /tauri-nextjs-starter/src-tauri
+    schedule:
+      interval: daily
+    open-pull-requests-limit: 10
+    commit-message:
+      prefix: chore(deps-tauri-cargo)
+
+  # 5. Update GitHub Actions workflows
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: daily
+    open-pull-requests-limit: 5
+    commit-message:
+      prefix: chore(ci)
