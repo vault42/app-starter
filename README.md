@@ -8,10 +8,10 @@ You can instantly scaffold any project template from this repository using `degi
 
 ```bash
 # General syntax
-npx degit 42arch/app-starter/<template-name> <my-project-name>
+npx degit vault42/app-starter/<template-name> <my-project-name>
 
 # Example: Scaffold a Next.js starter
-npx degit 42arch/app-starter/web-nextjs-starter my-next-app
+npx degit vault42/app-starter/web-nextjs-starter my-next-app
 ```
 
 ---
