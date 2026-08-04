@@ -25,14 +25,14 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^9.2.0",
-    "@next/eslint-plugin-next": "^16.2.11",
+    "@next/eslint-plugin-next": "^16.2.12",
     "@tailwindcss/postcss": "^4.3.2",
     "@types/node": "^26.1.2",
     "@types/react": "^19.2.18",
     "@types/react-dom": "^19.2.4",
     "eslint": "^10.8.0",
-    "eslint-config-next": "^16.2.11",
-    "shadcn": "^4.14.1",
+    "eslint-config-next": "^16.2.12",
+    "shadcn": "^4.16.1",
     "typescript": "^6.0.3"
   }
 }
